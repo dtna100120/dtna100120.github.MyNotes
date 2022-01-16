@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutMiscellaneous"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_search"
+    app:behavior_peekHeight = "60dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Miscellaneous"
+        android:includeFontPadding="false"
+        android:layout_gravity="center"
+        android:id="@+id/textMiscellaneous"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:id="@+id/layoutAddImage"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_height="35dp">
+        <ImageView
+            android:src="@drawable/ic_image"
+            android:id="@+id/imageAddImage"
+            android:contentDescription="@string/app_name"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:tint="@color/colorBackIcon"/>
+        <TextView
+            android:textSize="12sp"
+            android:textColor="@color/colorBackIcon"
+            android:text="Add image"
+            android:includeFontPadding="false"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/layoutAddUrl"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:src="@drawable/ic_web_link"
+            android:contentDescription="@string/app_name"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:tint="@color/colorBackIcon"/>
+        <TextView
+            android:textSize="12sp"
+            android:textColor="@color/colorBackIcon"
+            android:text="Add URL"
+            android:includeFontPadding="false"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/layoutDeleteNote"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:visibility="gone"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:src="@drawable/ic_baseline_delete_24"
+            android:contentDescription="@string/app_name"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            app:tint="@color/colorBackIcon"/>
+        <TextView
+            android:textSize="12sp"
+            android:textColor="@color/colorBackIcon"
+            android:text="Delete Note"
+            android:includeFontPadding="false"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
