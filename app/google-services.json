@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143382796404",
+    "project_id": "mynoteshuce",
+    "storage_bucket": "mynoteshuce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143382796404:android:04e5727bd0154d491ad921",
+        "android_client_info": {
+          "package_name": "com.huce.mynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143382796404-9fk8u2fhb6d47ugkqtilmdhddmon73eg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCh-CLGRi8GVRrAA_oNI61h9BGJ1NtS80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143382796404-9fk8u2fhb6d47ugkqtilmdhddmon73eg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
